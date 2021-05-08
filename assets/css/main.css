@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+#skills div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills div span {
+    margin: 0px 20px 0px 0px;
+}
+
+#statistics {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#statistics div {
+    width: 25%;
+    margin: auto;
+}
+
+#statistics div p {
+    width: 100%;
+}
+
+#slider {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#slider div {
+    width: 20%;
+    cursor: pointer;
+    background: rgba(0, 152, 240, 0.9);
+    overflow: hidden;
+}
+
+#slider div img {
+    width: 100%;
+    height: 100%;
+    transition: all .75s;
+}
+
+#slider div img:hover {
+    opacity: 0.45;
+    width: 130%;
+}
+
+#work-process {
+    margin: auto;
+    text-align: center;
+}
+
+#work-process p {
+    margin: auto;
+    text-align: center;
+    width: 900px;
+}
+
+#keywords {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#keywords div {
+    width: 25%;
+    text-align: center;
+}
+
+#keywords div div {
+    margin: auto;
+}
+
+#keywords div img {
+    height: 96px;
+    width: 96px;
+}
+
+#quotes {
+    margin: auto;
+    text-align: center;
+    width: 750px;
+}
+
+#companies-logo {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#companies-logo img {
+    width: 20%
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    margin: auto auto 30px auto;
+}
+
+#contact form {
+    margin: auto;
+    width: 80%
+}
+
+#contact-submit {
+    margin: auto;
+    width: 200px;
+}
+
+#contact-submit input {
+    padding: 10px;
+    width: 200px;
+}
+
+#contact form div {
+    display: flex;
+}
+
+
+#contact form div * {
+    margin: 0px 10px 15px 10px;
+    flex-grow: 100;
+}

@@ -1,128 +1,269 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0px;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
 }
 
-#skills div {
-    display: flex;
-    flex-wrap: wrap;
+p {
+  color: gray;
 }
 
-#skills div span {
-    margin: 0px 20px 0px 0px;
+body {
+}
+
+#logo {
+  width: 32px;
+  height: 32px;
+  margin: auto 48px;
+}
+
+#navbar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+nav ul {
+  justify-content: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-right: 40px;
+  font-weight: bold;
+  font-size: large;
+  font-variant: small-caps;
+}
+
+nav ul li a {
+  margin: 0 25px 0 0;
+  text-decoration: none;
+  color: black;
+}
+
+#description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#description div {
+  width: 400px;
+  margin: 150px 100px 0px 50px;
+}
+
+button {
+  background: rgb(15, 200, 195);
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-variant: small-caps;
+  height: 50px;
+  width: 150px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#about-us {
+  margin: 55px;
+  display: flex;
+  justify-content: center;
+}
+
+#about-us header {
+  text-align: center;
+  width: 600px;
+}
+
+#skills {
+  margin: 50px;
+}
+
+#skills div div {
+  font-variant: small-caps;
+}
+
+.skill-range {
+  background: lightgray;
+  height: 3px;
+  width: 450px;
+}
+
+#skill-design,
+#skill-web,
+#skill-marketing {
+  background: rgb(15, 200, 195);
+}
+
+#skill-design {
+  width: 75%;
+}
+
+#skill-web {
+  width: 90%;
+}
+
+#skill-marketing {
+  width: 65%;
 }
 
 #statistics {
-    display: flex;
-    flex-wrap: wrap;
+  background-color: rgb(15, 200, 195);
+  height: 175px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #statistics div {
-    width: 25%;
-    margin: auto;
+  width: 25%;
+  margin: auto;
 }
 
 #statistics div p {
-    width: 100%;
+  width: 100%;
+  color: white;
 }
 
 #slider {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #slider div {
-    width: 20%;
-    cursor: pointer;
-    background: rgba(0, 152, 240, 0.9);
-    overflow: hidden;
+  width: 20%;
+  cursor: pointer;
+  background: rgba(0, 152, 240, 0.9);
+  overflow: hidden;
 }
 
 #slider div img {
-    width: 100%;
-    height: 100%;
-    transition: all .75s;
+  width: 100%;
+  height: 100%;
+  transition: all 0.75s;
 }
 
 #slider div img:hover {
-    opacity: 0.45;
-    width: 130%;
+  opacity: 0.45;
+  width: 130%;
 }
 
 #work-process {
-    margin: auto;
-    text-align: center;
+  margin: auto;
+  text-align: center;
 }
 
-#work-process p {
-    margin: auto;
-    text-align: center;
-    width: 900px;
+#work-process {
+  margin: auto;
+  text-align: center;
+  width: 500px;
 }
 
 #keywords {
-    display:flex;
-    flex-wrap: wrap;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 75px 75px 75px 75px;
 }
 
 #keywords div {
-    width: 25%;
-    text-align: center;
+  width: 25%;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.keyword-content img {
+  height: 96px;
+  width: 96px;
 }
 
 #keywords div div {
-    margin: auto;
-}
-
-#keywords div img {
-    height: 96px;
-    width: 96px;
+  width: 75%;
 }
 
 #quotes {
-    margin: auto;
-    text-align: center;
-    width: 750px;
+  background: rgb(15, 200, 195);
+  height: 350px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+#quotes div {
+  text-align: center;
+  width: 550px;
+}
+
+#quotes p {
+  font-variant: small-caps;
+  color: white;
 }
 
 #companies-logo {
-    display:flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  height: 175px;
 }
 
-#companies-logo img {
-    width: 20%
+#companies-logo div {
+  width: 20%;
+  margin: auto;
+}
+
+#companies-logo div img {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  display: block;
 }
 
 #contact {
-    text-align: center;
+  padding-top: 70px;
+  background-color: rgb(245, 245, 245);
+  text-align: center;
 }
 
 #contact p {
-    margin: auto auto 30px auto;
+  margin: auto auto 30px auto;
+  width: 540px;
 }
 
 #contact form {
-    margin: auto;
-    width: 80%
+  margin: auto;
+  width: 80%;
 }
 
 #contact-submit {
-    margin: auto;
-    width: 200px;
+  margin: auto;
+  width: 200px;
+}
+
+input {
+    border: 0;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 15px;
+    color: rgb(15, 15, 15);
+}
+
+textarea {
+    border: 0;
+    height: 175px;
+    padding: 20px 20px;
+    font-size: 15px;
+    color: rgb(15, 15, 15);
 }
 
 #contact-submit input {
-    padding: 10px;
-    width: 200px;
+  padding: 10px;
+  width: 200px;
 }
 
 #contact form div {
-    display: flex;
+  display: flex;
 }
 
-
 #contact form div * {
-    margin: 0px 10px 15px 10px;
-    flex-grow: 100;
+  margin: 0px 10px 15px 10px;
+  flex-grow: 100;
 }
